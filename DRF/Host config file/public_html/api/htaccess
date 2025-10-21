@@ -1,0 +1,21 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/karasteh/Karasteh-Drf"
+PassengerBaseURI "/api"
+PassengerPython "/home/karasteh/virtualenv/Karasteh-Drf/3.12/bin/python"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# مدیریت فایل‌های استاتیک و مدیا
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # فایل‌های استاتیک را به مسیر درست هدایت کن
+    RewriteRule ^static/(.*)$ /static/$1 [L]
+    RewriteRule ^media/(.*)$ /media/$1 [L]
+    
+    # اطمینان از پیروی از لینک‌های نمادین
+    Options +FollowSymLinks
+</IfModule>
+
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END

@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# Handle Angular and React routing, return all requests to Vite index
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Don't rewrite files (they exist)
+RewriteCond %{REQUEST_URI} \.(js|css|html|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$ [NC]
+RewriteRule ^ - [L]
+
+# Don't rewrite API calls
+RewriteCond %{REQUEST_URI} ^/api [NC]
+RewriteRule ^ - [L]
+
+# Handle client-side routing
+RewriteRule . /index.html [L]
