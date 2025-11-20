@@ -32,7 +32,7 @@ export default function Login () {
                         </form>
                     </div>
                     <div className='w-full bg-red-500 max-[600px]:h-[20rem] rounded-md flex justify-center items-center'>
-                        <img className='w-[10rem] h-[3rem] object-cover' src='/images/logo-DMnss01L.png' />
+                        <img className='w-[10rem] h-[3rem] object-cover' src={process.env.PUBLIC_URL + '/images/logo-DMnss01L.png'} />
                     </div>
                 </div>
                 <div className='flex justify-center items-center w-full'>

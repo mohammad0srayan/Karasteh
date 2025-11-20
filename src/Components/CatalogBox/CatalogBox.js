@@ -13,7 +13,7 @@ export default function CatalogBox () {
                     </div>
                 </div>
                 <div className='min-[864px]:w-[30rem] max-[864px]:w-full h-[13rem] min-[1360px]:absolute min-[1360px]:-top-[2rem] min-[1360px]:left-[3rem]'>
-                    <img className='w-full h-full rounded-xl object-cover' src='/images/2.jpg' />
+                    <img className='w-full h-full rounded-xl object-cover' src={process.env.PUBLIC_URL + '/images/2.jpg'} />
                 </div>
             </div>
         </div>

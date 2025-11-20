@@ -26,7 +26,7 @@ export default function AboutBox() {
                 <div className='w-full h-[20rem] border-dotted border-red-500 border-2 p-[0.3rem] rounded-xl'>
                     <div className='bg-red-500 h-full rounded-xl relative'>
                         <div className='w-full h-[20rem] rounded-xl absolute top-[1rem] -left-[1rem]'>
-                            <img className='w-full h-full object-cover rounded-xl relative' src='/images/blog/Rectangle-11-1.png'/>
+                            <img className='w-full h-full object-cover rounded-xl relative' src={process.env.PUBLIC_URL + '/images/blog/Rectangle-11-1.png'} />
                             <button className='w-[4rem] h-[4rem] bg-red-500 absolute top-[42%] left-[44%] rounded-full flex justify-center items-center'>
                                 <span className='text-white'><PlayArrowOutlinedIcon fontSize='large' /></span>
                             </button>

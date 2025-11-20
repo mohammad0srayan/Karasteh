@@ -35,7 +35,7 @@ export default function ContactBox() {
                             <SwiperSlide>
                                 <div className='p-[1rem] bg-white w-full'>
                                     <div className='flex items-center gap-[0.5rem]'>
-                                        <img className='w-[3rem] h-[3rem] object-cover rounded-full' src='/images/Ellipse-38-1.png' />
+                                        <img className='w-[3rem] h-[3rem] object-cover rounded-full' src={process.env.PUBLIC_URL + '/images/Ellipse-38-1.png'} />
                                         <h2 className='font-semibold'>استان خراسان رضوی:</h2>
                                     </div>
                                     <div className="flex-1 border-t-2 border-dotted border-black min-w-[4rem] mt-[1rem]"></div>
@@ -48,7 +48,7 @@ export default function ContactBox() {
                             <SwiperSlide>
                                 <div className='p-[1rem] bg-white w-full'>
                                     <div className='flex items-center gap-[0.5rem]'>
-                                        <img className='w-[3rem] h-[3rem] object-cover rounded-full' src='/images/Ellipse-38-1.png' />
+                                        <img className='w-[3rem] h-[3rem] object-cover rounded-full' src={process.env.PUBLIC_URL + '/images/Ellipse-38-1.png'} />
                                         <h2 className='font-semibold'>استان خراسان رضوی:</h2>
                                     </div>
                                     <div className="flex-1 border-t-2 border-dotted border-black min-w-[4rem] mt-[1rem]"></div>
@@ -62,7 +62,7 @@ export default function ContactBox() {
                     </div>
 
                     <div className='w-[35rem] max-[612px]:w-[20rem] h-full relative bottom-[4rem] max-[1456px]:bottom-0'>
-                        <img className='w-full h-full' src='/images/map.png' alt='' />
+                        <img className='w-full h-full' src={process.env.PUBLIC_URL + '/images/map.png'} alt='' />
                     </div>
                 </div>
             </div>

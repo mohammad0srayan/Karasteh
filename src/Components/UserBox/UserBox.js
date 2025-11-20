@@ -46,7 +46,7 @@ export default function UserBox() {
                     <SwiperSlide className='py-[1rem]'>
                         <div className='w-full h-max rounded-md relative bg-white box-product pb-[1rem]'>
                             <div className='w-full h-[25rem] relative border-b-2 border-red-500 border-dotted'>
-                                <img className='w-full h-full object-cover' src='/images/users/1.webp'/>
+                                <img className='w-full h-full object-cover' src={process.env.PUBLIC_URL + '/images/users/1.webp'} />
                                 <div
                                     className='absolute top-0 right-0 h-full w-max p-[0.5rem] bg-red-500 flex flex-col gap-[1rem] text-white'>
                                     <Link to=''><TelegramIcon/></Link>
@@ -63,7 +63,7 @@ export default function UserBox() {
                     <SwiperSlide className='py-[1rem]'>
                         <div className='w-full h-max rounded-md relative bg-white box-product pb-[1rem]'>
                             <div className='w-full h-[25rem] relative border-b-2 border-red-500 border-dotted'>
-                                <img className='w-full h-full object-cover' src='/images/users/2.webp'/>
+                                <img className='w-full h-full object-cover' src={process.env.PUBLIC_URL + '/images/users/2.webp'} />
                                 <div
                                     className='absolute top-0 right-0 h-full w-max p-[0.5rem] bg-red-500 flex flex-col gap-[1rem] text-white'>
                                     <Link to=''><TelegramIcon/></Link>
@@ -80,7 +80,7 @@ export default function UserBox() {
                     <SwiperSlide className='py-[1rem]'>
                         <div className='w-full h-max rounded-md relative bg-white box-product pb-[1rem]'>
                             <div className='w-full h-[25rem] relative border-b-2 border-red-500 border-dotted'>
-                                <img className='w-full h-full object-cover' src='/images/users/3.webp'/>
+                                <img className='w-full h-full object-cover' src={process.env.PUBLIC_URL + '/images/users/3.webp'} />
                                 <div
                                     className='absolute top-0 right-0 h-full w-max p-[0.5rem] bg-red-500 flex flex-col gap-[1rem] text-white'>
                                     <Link to=''><TelegramIcon/></Link>
@@ -97,7 +97,7 @@ export default function UserBox() {
                     <SwiperSlide className='py-[1rem]'>
                         <div className='w-full h-max rounded-md relative bg-white box-product pb-[1rem]'>
                             <div className='w-full h-[25rem] relative border-b-2 border-red-500 border-dotted'>
-                                <img className='w-full h-full object-cover' src='/images/users/4.webp'/>
+                                <img className='w-full h-full object-cover' src={process.env.PUBLIC_URL + '/images/users/4.webp'} />
                                 <div
                                     className='absolute top-0 right-0 h-full w-max p-[0.5rem] bg-red-500 flex flex-col gap-[1rem] text-white'>
                                     <Link to=''><TelegramIcon/></Link>
@@ -114,7 +114,7 @@ export default function UserBox() {
                     <SwiperSlide className='py-[1rem]'>
                         <div className='w-full h-max rounded-md relative bg-white box-product pb-[1rem]'>
                             <div className='w-full h-[25rem] relative border-b-2 border-red-500 border-dotted'>
-                                <img className='w-full h-full object-cover' src='/images/users/5.webp'/>
+                                <img className='w-full h-full object-cover' src={process.env.PUBLIC_URL + '/images/users/5.webp'} />
                                 <div
                                     className='absolute top-0 right-0 h-full w-max p-[0.5rem] bg-red-500 flex flex-col gap-[1rem] text-white'>
                                     <Link to=''><TelegramIcon/></Link>

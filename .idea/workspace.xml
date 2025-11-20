@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e7054c18-1423-4028-8b21-d9e4997cfe31" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CatalogBox/CatalogBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CatalogBox/CatalogBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ContactBox/ContactBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactBox/ContactBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Logos/Logos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Logos/Logos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ProductsBox/ProductsBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProductsBox/ProductsBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserBox/UserBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserBox/UserBox.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,21 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Apps/TaskForce/Prpject-me/Web/Project/Designer/course-react/karasta&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Apps/TaskForce/Prpject-me/Web/Project/Designer/course-react/karasta",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Apps\\TaskForce\\Prpject-me\\Web\\Project\\Designer\\course-react\\karasta\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,7 +90,7 @@
       <workItem from="1763624905512" duration="6666000" />
       <workItem from="1763632891454" duration="273000" />
       <workItem from="1763633203532" duration="3873000" />
-      <workItem from="1763637148891" duration="1678000" />
+      <workItem from="1763637148891" duration="2881000" />
     </task>
     <servers />
   </component>

@@ -32,25 +32,25 @@ export default function Logos () {
                 }}
                 className="mySwiper">
                 <SwiperSlide>
-                    <img className='w-[8rem] h-[3rem]' src='/images/logo/آروا-1.png' />
+                    <img className='w-[8rem] h-[3rem]' src={process.env.PUBLIC_URL + '/images/logo/آروا-1.png'} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-[8rem] h-[3rem]' src='/images/logo/آروا-1.png' />
+                    <img className='w-[8rem] h-[3rem]' src={process.env.PUBLIC_URL + '/images/logo/آروا-1.png'} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-[8rem] h-[3rem]' src='/images/logo/آروا-1.png' />
+                    <img className='w-[8rem] h-[3rem]' src={process.env.PUBLIC_URL + '/images/logo/آروا-1.png'} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-[8rem] h-[3rem]' src='/images/logo/آروا-1.png' />
+                    <img className='w-[8rem] h-[3rem]' src={process.env.PUBLIC_URL + '/images/logo/آروا-1.png'} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-[8rem] h-[3rem]' src='/images/logo/آروا-1.png' />
+                    <img className='w-[8rem] h-[3rem]' src={process.env.PUBLIC_URL + '/images/logo/آروا-1.png'} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-[8rem] h-[3rem]' src='/images/logo/آروا-1.png' />
+                    <img className='w-[8rem] h-[3rem]' src={process.env.PUBLIC_URL + '/images/logo/آروا-1.png'} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-[8rem] h-[3rem]' src='/images/logo/آروا-1.png' />
+                    <img className='w-[8rem] h-[3rem]' src={process.env.PUBLIC_URL + '/images/logo/آروا-1.png'} />
                 </SwiperSlide>
             </Swiper>
         </div>

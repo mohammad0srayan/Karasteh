@@ -80,7 +80,7 @@ export default function CategoryBox () {
 
                 <div className='grid-custom-category w-full'>
                     <div className='w-full h-[25rem] relative'>
-                        <img className='w-full h-full object-cover rounded-xl brightness-75' src='/images/blog/206af60d19153a83ecb85379e1183507.jpg'/>
+                        <img className='w-full h-full object-cover rounded-xl brightness-75' src={process.env.PUBLIC_URL + '/images/blog/206af60d19153a83ecb85379e1183507.jpg'} />
 
                         <div className='absolute bottom-0 w-full p-[1rem]'>
                             <h2 className='text-white text-xl font-semibold mb-[1rem]'>پروژه ساخت بتن آرمه</h2>
@@ -102,7 +102,7 @@ export default function CategoryBox () {
                         </div>
                     </div>
                     <div className='w-full h-[25rem] relative'>
-                        <img className='w-full h-full object-cover rounded-xl brightness-75' src='/images/blog/e46c83b581c3c18e0af106e59f6b5eae.jpg'/>
+                        <img className='w-full h-full object-cover rounded-xl brightness-75' src={process.env.PUBLIC_URL + '/images/blog/e46c83b581c3c18e0af106e59f6b5eae.jpg'} />
 
                         <div className='absolute bottom-0 w-full p-[1rem]'>
                             <h2 className='text-white text-xl font-semibold mb-[1rem]'>برش قطعات ساختمان آرا</h2>
@@ -124,7 +124,7 @@ export default function CategoryBox () {
                         </div>
                     </div>
                     <div className='w-full h-[25rem] relative'>
-                        <img className='w-full h-full object-cover rounded-xl brightness-75' src='/images/blog/Rectangle-11-1.png'/>
+                        <img className='w-full h-full object-cover rounded-xl brightness-75' src={process.env.PUBLIC_URL + '/images/blog/Rectangle-11-1.png'} />
 
                         <div className='absolute bottom-0 w-full p-[1rem]'>
                             <h2 className='text-white text-xl font-semibold mb-[1rem]'>تخریب ساختمان ابوذر</h2>
@@ -146,7 +146,7 @@ export default function CategoryBox () {
                         </div>
                     </div>
                     <div className='w-full h-[25rem] relative'>
-                        <img className='w-full h-full object-cover rounded-xl brightness-75' src='/images/blog/Rectangle-64.png'/>
+                        <img className='w-full h-full object-cover rounded-xl brightness-75' src={process.env.PUBLIC_URL + '/images/blog/Rectangle-64.png'} />
 
                         <div className='absolute bottom-0 w-full p-[1rem]'>
                             <h2 className='text-white text-xl font-semibold mb-[1rem]'>پروژه راه اندازی سازه بتنی</h2>
@@ -168,7 +168,7 @@ export default function CategoryBox () {
                         </div>
                     </div>
                     <div className='w-full h-[25rem] relative'>
-                        <img className='w-full h-full object-cover rounded-xl brightness-75' src='/images/blog/Rectangle-66.png'/>
+                        <img className='w-full h-full object-cover rounded-xl brightness-75' src={process.env.PUBLIC_URL + '/images/blog/Rectangle-66.png'} />
 
                         <div className='absolute bottom-0 w-full p-[1rem]'>
                             <h2 className='text-white text-xl font-semibold mb-[1rem]'>جوش ماشین آلات کارخانه رادمان</h2>
@@ -190,7 +190,7 @@ export default function CategoryBox () {
                         </div>
                     </div>
                     <div className='w-full h-[25rem] relative'>
-                        <img className='w-full h-full object-cover rounded-xl brightness-75' src='/images/blog/Rectangle-70.png'/>
+                        <img className='w-full h-full object-cover rounded-xl brightness-75' src={process.env.PUBLIC_URL + '/images/blog/Rectangle-70.png'} />
 
                         <div className='absolute bottom-0 w-full p-[1rem]'>
                             <h2 className='text-white text-xl font-semibold mb-[1rem]'>سوراخ کاری میز های هتل سپهر</h2>

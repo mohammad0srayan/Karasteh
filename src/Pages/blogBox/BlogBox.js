@@ -13,7 +13,6 @@ import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import LanguageRoundedIcon from '@mui/icons-material/LanguageRounded';
 import BusinessRoundedIcon from '@mui/icons-material/BusinessRounded';
-import HeadBoxSection from "../../Components/HeadBoxSection/HeadBoxSection";
 import ContactUs from "../../Components/ContactUs/ContactUs";
 import Footer from "../../Components/Footer/Footer";
 import CommentBox from "../../Components/CommentBox/CommentBox";
@@ -66,7 +65,7 @@ export default function BlogBox() {
                         <div className='w-full p-[1rem] rounded-md box-shadow'>
                             <div className='w-full h-[30rem] rounded-md'>
                                 <img className='w-full h-full object-cover rounded-md'
-                                     src='/images/blog/e46c83b581c3c18e0af106e59f6b5eae.jpg'/>
+                                     src={process.env.PUBLIC_URL + '/images/blog/e46c83b581c3c18e0af106e59f6b5eae.jpg'} />
                             </div>
                             <div className='mt-[2rem]'>
                                 <p className='text-footer-dark text-[0.9rem] text-justify w-full'>

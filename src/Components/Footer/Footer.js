@@ -31,7 +31,7 @@ export default function Footer () {
 
                 <div className='w-full'>
                     <div className='w-[12rem] h-[4rem]'>
-                        <img className='w-full h-full object-cover' src='/images/logo-DMnss01L.png' alt='' />
+                        <img className='w-full h-full object-cover' src={process.env.PUBLIC_URL + '/images/logo-DMnss01L.png'} alt='' />
                     </div>
                     <p className="text-white text-justify">
                         گروه صنعتی کاراسته با سابقه‌ای درخشان در تولید و عرضه ابزارآلات دستی و برقی،

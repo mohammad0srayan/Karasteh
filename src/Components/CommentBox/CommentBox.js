@@ -13,7 +13,7 @@ export default function CommentBox () {
                 <div className='w-full p-[1rem] box-shadow rounded-md mt-[4rem]'>
                     <div className='flex gap-[1rem] items-center pb-[0.8rem] border-b-[2.5px] border-dotted border-borderBot'>
                         <div className='h-[4rem] w-[4rem]'>
-                            <img className='w-full h-full object-cover' src='/images/Ellipse-38-1.png' />
+                            <img className='w-full h-full object-cover' src={process.env.PUBLIC_URL + '/images/Ellipse-38-1.png'} />
                         </div>
                         <div className='flex flex-col gap-[0.2rem]'>
                             <span className='text-footer-dark font-semibold'>onix</span>
@@ -35,7 +35,7 @@ export default function CommentBox () {
                     <div className='w-full p-[1rem] box-shadow rounded-md mt-[1rem]'>
                         <div className='flex gap-[1rem] items-center pb-[0.8rem] border-b-[2.5px] border-dotted border-borderBot'>
                             <div className='h-[4rem] w-[4rem]'>
-                                <img className='w-full h-full object-cover' src='/images/Ellipse-38-1.png' />
+                                <img className='w-full h-full object-cover' src={process.env.PUBLIC_URL + '/images/Ellipse-38-1.png'} />
                             </div>
                             <div className='flex flex-col gap-[0.2rem]'>
                                 <span className='text-footer-dark font-semibold'>onix</span>

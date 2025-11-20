@@ -44,7 +44,7 @@ export default function ProductsBox () {
                     <SwiperSlide className='py-[2rem]'>
                         <div className='w-full h-max rounded-md relative bg-white p-[1rem] box-product'>
                             <div className='w-full h-[12rem] bg-gray-200 rounded-md relative flex justify-center items-center'>
-                                <img className='w-[10rem] h-[8rem]' src='/images/product/5cec5ba323efc35b378d10d89d4d87343b4ee9d1_1624284187.webp' />
+                                <img className='w-[10rem] h-[8rem]' src={process.env.PUBLIC_URL + '/images/product/5cec5ba323efc35b378d10d89d4d87343b4ee9d1_1624284187.webp'} />
                                 <div className='absolute top-0 right-0'>
                                     <span className='p-[0.5rem] rounded-md bg-red-500 text-white'>5%</span>
                                 </div>
@@ -63,7 +63,7 @@ export default function ProductsBox () {
                     <SwiperSlide className='py-[2rem]'>
                         <div className='w-full h-max rounded-md relative bg-white p-[1rem] box-product'>
                             <div className='w-full h-[12rem] bg-gray-200 rounded-md relative flex justify-center items-center'>
-                                <img className='w-[10rem] h-[8rem]' src='/images/product/647ae6eb6093c2d2ee4e7673f4a1e39028ef0feb_1627884894.webp' />
+                                <img className='w-[10rem] h-[8rem]' src={process.env.PUBLIC_URL + '/images/product/647ae6eb6093c2d2ee4e7673f4a1e39028ef0feb_1627884894.webp'} />
                                 <div className='absolute top-0 right-0'>
                                     <span className='p-[0.5rem] rounded-md bg-red-500 text-white'>5%</span>
                                 </div>
@@ -82,7 +82,7 @@ export default function ProductsBox () {
                     <SwiperSlide className='py-[2rem]'>
                         <div className='w-full h-max rounded-md relative bg-white p-[1rem] box-product'>
                             <div className='w-full h-[12rem] bg-gray-200 rounded-md relative flex justify-center items-center'>
-                                <img className='w-[10rem] h-[8rem]' src='/images/product/10581119-1.png' />
+                                <img className='w-[10rem] h-[8rem]' src={process.env.PUBLIC_URL + '/images/product/10581119-1.png'} />
                                 <div className='absolute top-0 right-0'>
                                     <span className='p-[0.5rem] rounded-md bg-red-500 text-white'>5%</span>
                                 </div>
@@ -101,7 +101,7 @@ export default function ProductsBox () {
                     <SwiperSlide className='py-[2rem]'>
                         <div className='w-full h-max rounded-md relative bg-white p-[1rem] box-product'>
                             <div className='w-full h-[12rem] bg-gray-200 rounded-md relative flex justify-center items-center'>
-                                <img className='w-[10rem] h-[8rem]' src='/images/product/10581119-1-1.png' />
+                                <img className='w-[10rem] h-[8rem]' src={process.env.PUBLIC_URL + '/images/product/10581119-1-1.png'} />
                                 <div className='absolute top-0 right-0'>
                                     <span className='p-[0.5rem] rounded-md bg-red-500 text-white'>5%</span>
                                 </div>
@@ -120,7 +120,7 @@ export default function ProductsBox () {
                     <SwiperSlide className='py-[2rem]'>
                         <div className='w-full h-max rounded-md relative bg-white p-[1rem] box-product'>
                             <div className='w-full h-[12rem] bg-gray-200 rounded-md relative flex justify-center items-center'>
-                                <img className='w-[10rem] h-[8rem]' src='/images/product/10581119-1-3.png' />
+                                <img className='w-[10rem] h-[8rem]' src={process.env.PUBLIC_URL + '/images/product/10581119-1-3.png'} />
                                 <div className='absolute top-0 right-0'>
                                     <span className='p-[0.5rem] rounded-md bg-red-500 text-white'>5%</span>
                                 </div>
@@ -139,7 +139,7 @@ export default function ProductsBox () {
                     <SwiperSlide className='py-[2rem]'>
                         <div className='w-full h-max rounded-md relative bg-white p-[1rem] box-product'>
                             <div className='w-full h-[12rem] bg-gray-200 rounded-md relative flex justify-center items-center'>
-                                <img className='w-[10rem] h-[8rem]' src='/images/product/10581119-1-2.png' />
+                                <img className='w-[10rem] h-[8rem]' src={process.env.PUBLIC_URL + '/images/product/10581119-1-2.png'} />
                                 <div className='absolute top-0 right-0'>
                                     <span className='p-[0.5rem] rounded-md bg-red-500 text-white'>5%</span>
                                 </div>

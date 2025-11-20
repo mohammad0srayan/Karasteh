@@ -58,7 +58,7 @@ export default function ProjectPage() {
                 <div className='w-full mt-[1rem] relative'>
                     <div className='w-full min-[800px]:h-[35rem] rounded-xl max-[800px]:h-full'>
                         <img className='w-full h-full object-cover rounded-xl brightness-75'
-                             src='/images/blog/e46c83b581c3c18e0af106e59f6b5eae.jpg'/>
+                             src={process.env.PUBLIC_URL +'/images/blog/e46c83b581c3c18e0af106e59f6b5eae.jpg'} />
                     </div>
 
                     <div
@@ -78,7 +78,7 @@ export default function ProjectPage() {
                 <div className='mt-[1rem]'>
                     <div className='h-[10rem] w-[20rem] rounded-xl'>
                         <img className='h-full w-full object-cover rounded-xl cursor-pointer'
-                             src='/images/blog/Rectangle-11-1.png' alt=''/>
+                             src={process.env.PUBLIC_URL + '/images/blog/Rectangle-11-1.png'} alt=''/>
                     </div>
                 </div>
 
@@ -114,7 +114,6 @@ export default function ProjectPage() {
                         </li>
                     </ul>
                 </div>
-
 
                 <CommentBox/>
 

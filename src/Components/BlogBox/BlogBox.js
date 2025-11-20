@@ -47,7 +47,7 @@ export default function BlogBox () {
                     <SwiperSlide>
                         <div className='w-full h-max rounded-xl relative box-product'>
                             <div className='h-[20rem] w-full rounded-xl'>
-                                <img className='h-full w-full object-cover rounded-xl grayscale ease-in-out duration-300 hover:grayscale-0' src='/images/blog/206af60d19153a83ecb85379e1183507.jpg' alt='' />
+                                <img className='h-full w-full object-cover rounded-xl grayscale ease-in-out duration-300 hover:grayscale-0' src={process.env.PUBLIC_URL + '/images/blog/206af60d19153a83ecb85379e1183507.jpg'} alt='' />
                             </div>
                             <div className='absolute bottom-0 left-0 py-[1rem] bg-brand-dark text-white w-full rounded-xl'>
                                 <div className='px-[1rem]'>
@@ -63,7 +63,7 @@ export default function BlogBox () {
                     <SwiperSlide>
                         <div className='w-full h-max rounded-xl relative box-product'>
                             <div className='h-[20rem] w-full rounded-xl'>
-                                <img className='h-full w-full object-cover rounded-xl grayscale ease-in-out duration-300 hover:grayscale-0' src='/images/blog/206af60d19153a83ecb85379e1183507.jpg' alt='' />
+                                <img className='h-full w-full object-cover rounded-xl grayscale ease-in-out duration-300 hover:grayscale-0' src={process.env.PUBLIC_URL + '/images/blog/206af60d19153a83ecb85379e1183507.jpg'} alt='' />
                             </div>
                             <div className='absolute bottom-0 left-0 py-[1rem] bg-brand-dark text-white w-full rounded-xl'>
                                 <div className='px-[1rem]'>
@@ -79,7 +79,7 @@ export default function BlogBox () {
                     <SwiperSlide>
                         <div className='w-full h-max rounded-xl relative box-product'>
                             <div className='h-[20rem] w-full rounded-xl'>
-                                <img className='h-full w-full object-cover rounded-xl grayscale ease-in-out duration-300 hover:grayscale-0' src='/images/blog/206af60d19153a83ecb85379e1183507.jpg' alt='' />
+                                <img className='h-full w-full object-cover rounded-xl grayscale ease-in-out duration-300 hover:grayscale-0' src={process.env.PUBLIC_URL + '/images/blog/206af60d19153a83ecb85379e1183507.jpg'} alt='' />
                             </div>
                             <div className='absolute bottom-0 left-0 py-[1rem] bg-brand-dark text-white w-full rounded-xl'>
                                 <div className='px-[1rem]'>
@@ -95,7 +95,7 @@ export default function BlogBox () {
                     <SwiperSlide>
                         <div className='w-full h-max rounded-xl relative box-product'>
                             <div className='h-[20rem] w-full rounded-xl'>
-                                <img className='h-full w-full object-cover rounded-xl grayscale ease-in-out duration-300 hover:grayscale-0' src='/images/blog/206af60d19153a83ecb85379e1183507.jpg' alt='' />
+                                <img className='h-full w-full object-cover rounded-xl grayscale ease-in-out duration-300 hover:grayscale-0' src={process.env.PUBLIC_URL + '/images/blog/206af60d19153a83ecb85379e1183507.jpg'} alt='' />
                             </div>
                             <div className='absolute bottom-0 left-0 py-[1rem] bg-brand-dark text-white w-full rounded-xl'>
                                 <div className='px-[1rem]'>
@@ -111,7 +111,7 @@ export default function BlogBox () {
                     <SwiperSlide>
                         <div className='w-full h-max rounded-xl relative box-product'>
                             <div className='h-[20rem] w-full rounded-xl'>
-                                <img className='h-full w-full object-cover rounded-xl grayscale ease-in-out duration-300 hover:grayscale-0' src='/images/blog/206af60d19153a83ecb85379e1183507.jpg' alt='' />
+                                <img className='h-full w-full object-cover rounded-xl grayscale ease-in-out duration-300 hover:grayscale-0' src={process.env.PUBLIC_URL + '/images/blog/206af60d19153a83ecb85379e1183507.jpg'} alt='' />
                             </div>
                             <div className='absolute bottom-0 left-0 py-[1rem] bg-brand-dark text-white w-full rounded-xl'>
                                 <div className='px-[1rem]'>
