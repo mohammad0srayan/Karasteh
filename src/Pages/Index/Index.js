@@ -31,7 +31,7 @@ export default function Index () {
                             </div>
                         </div>
                         <div className="min-[1192px]:w-full max-[1192px]:w-[40rem] max-[680px]:w-full h-[26rem] max-[450px]:h-[20rem]">
-                            <img className="w-full h-full" src="/images/hero-1.png" />
+                            <img className="w-full h-full" src={process.env.PUBLIC_URL + "/images/hero-1.png"} alt='logo' />
                         </div>
                     </div>
                 </div>
