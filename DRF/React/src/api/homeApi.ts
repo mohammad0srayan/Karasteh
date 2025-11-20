@@ -143,7 +143,7 @@ export const getProducts = async ({
     const response = await api.get('/products/', {
       params: { page, category_id, min_price, max_price, is_available, is_featured, search, sort },
     });
-    console.log('Products Response:', response.data);
+    console.log('ProductsBox.js Response:', response.data);
     return response.data;
   } catch (error: any) {
     console.error('Error fetching products:', error.response?.data || error.message);
@@ -165,7 +165,7 @@ export const getProductDetail = async (slug: string): Promise<ProductDetail> => 
 export const getHomeProducts = async (): Promise<HomeProduct[]> => {
   try {
     const response = await api.get<HomeProduct[]>('/products/home/');
-    console.log('Home Products Response:', response.data);
+    console.log('Home ProductsBox.js Response:', response.data);
     return response.data;
   } catch (error: any) {
     console.error('Error fetching home products:', error.response?.data || error.message);
@@ -185,7 +185,7 @@ export const searchProducts = async (query: string, page: number = 1): Promise<{
     const response = await api.get('/products/search/', {
       params: { q: query, page },
     });
-    console.log('Search Products Response:', response.data);
+    console.log('Search ProductsBox.js Response:', response.data);
     return response.data;
   } catch (error: any) {
     console.error('Error fetching search products:', error.response?.data || error.message);

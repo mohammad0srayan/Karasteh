@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'IRANYekanX';
+    src: url('Font/IranYekanX/IRANYekanX-Light.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'IRANYekanX', sans-serif;
+    box-sizing: border-box;
+}
+
+.text-justify {
+    text-align: justify;
+}

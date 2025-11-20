@@ -1,0 +1,7 @@
+.box-shadow {
+    box-shadow: 0 0 8px rgba(0 , 0, 0, 0.1);
+}
+
+.box-shadow-project-box {
+    box-shadow: 0 0 8px rgba(0 , 0, 0, 0.3);
+}
