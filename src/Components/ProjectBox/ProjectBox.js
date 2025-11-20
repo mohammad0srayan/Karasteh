@@ -51,7 +51,7 @@ export default function ProjectBox() {
                         <div className="w-full h-[26rem] rounded-md relative overflow-hidden">
                             <img
                                 className="w-full h-full object-cover rounded-md brightness-75 transition duration-200"
-                                src="/images/slider/1.jpg"
+                                src={process.env.PUBLIC_URL + "/images/slider/1.jpg"}
                                 alt="برش قطعات کارخانه سپهر"
                             />
 
@@ -77,7 +77,7 @@ export default function ProjectBox() {
                         <div className='w-full h-[26rem] rounded-md relative overflow-hidden'>
                             <img
                                 className='w-full h-full object-cover rounded-md brightness-75 ease-in-out duration-200'
-                                src='/images/slider/2.jpg'/>
+                                src={process.env.PUBLIC_URL + '/images/slider/2.jpg'}/>
 
                             <div className="absolute bottom-4 right-4 flex flex-col items-center">
 
@@ -100,7 +100,7 @@ export default function ProjectBox() {
                         <div className='w-full h-[26rem] rounded-md relative overflow-hidden'>
                             <img
                                 className='w-full h-full object-cover rounded-md brightness-75 ease-in-out duration-200'
-                                src='/images/slider/3.jpg'/>
+                                src={process.env.PUBLIC_URL + '/images/slider/3.jpg'}/>
 
                             <div className="absolute bottom-4 right-4 flex flex-col items-center">
 
@@ -123,7 +123,7 @@ export default function ProjectBox() {
                         <div className='w-full h-[26rem] rounded-md relative overflow-hidden'>
                             <img
                                 className='w-full h-full object-cover rounded-md brightness-75 ease-in-out duration-200'
-                                src='/images/slider/4.jpg'/>
+                                src={process.env.PUBLIC_URL + '/images/slider/4.jpg'}/>
 
                                                         <div className="absolute bottom-4 right-4 flex flex-col items-center">
 
@@ -146,7 +146,7 @@ export default function ProjectBox() {
                         <div className='w-full h-[26rem] rounded-md relative overflow-hidden'>
                             <img
                                 className='w-full h-full object-cover rounded-md brightness-75 ease-in-out duration-200'
-                                src='/images/slider/5.png'/>
+                                src={process.env.PUBLIC_URL + '/images/slider/5.png'}/>
 
                                                         <div className="absolute bottom-4 right-4 flex flex-col items-center">
 
@@ -169,7 +169,7 @@ export default function ProjectBox() {
                         <div className='w-full h-[26rem] rounded-md relative overflow-hidden'>
                             <img
                                 className='w-full h-full object-cover rounded-md brightness-75 ease-in-out duration-200'
-                                src='/images/slider/4.jpg'/>
+                                src={process.env.PUBLIC_URL + '/images/slider/4.jpg'}/>
 
                                                         <div className="absolute bottom-4 right-4 flex flex-col items-center">
 

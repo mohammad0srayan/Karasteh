@@ -15,7 +15,7 @@ export default function Navbar () {
         <header className="flex justify-between items-center bg-red-500">
             <nav className='flex justify-between items-center w-full text-white py-[0.5rem] min-[1160px]:px-[4rem] max-w-[1650px] mx-auto max-[1160px]:px-[1rem]'>
                 <div className='flex items-center gap-[1rem]'>
-                    <div className='w-[12rem] h-[4rem]'><img className='w-full h-full object-cover' src='/images/logo-DMnss01L.png' alt='' /></div>
+                    <div className='w-[12rem] h-[4rem]'><img className='w-full h-full object-cover' src={process.env.PUBLIC_URL + '/images/logo-DMnss01L.png'} alt='' /></div>
                     <ul className='flex text-white max-[1100px]:hidden'>
                         <li className='main-header__item'><Link className='hover:text-black duration-200 ease-in-out text-black' to=''>خانه</Link></li>
                         <li className='main-header__item'>
