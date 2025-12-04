@@ -1,9 +1,6 @@
 .main-header__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
-    padding: 0 1rem;
+    padding: 0.8rem 1rem;
 }
 
 .main-header__link {

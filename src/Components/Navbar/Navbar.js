@@ -5,11 +5,17 @@ import {useState} from "react";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import Sidebar from "../Sidebar/Sidebar";
 
 export default function Navbar () {
 
     const [showBasketProduct, setShowBasketProduct] = useState(false)
     const [isLogin, setLogin] = useState(true)
+    const [showSidebar, setShowSidebar] = useState(false)
+
+    const closeSidebar = () => {
+        setShowSidebar(false)
+    }
 
     return (
         <header className="flex justify-between items-center bg-red-500">
@@ -53,9 +59,13 @@ export default function Navbar () {
                     </ul>
                 </div>
                 <div className='flex justify-center items-center gap-4 flex-row-reverse'>
+
                     <div className='min-[1100px]:hidden'>
-                        <button className='flex items-center text-white text-3xl'><ion-icon name="menu"></ion-icon></button>
+                        <button onClick={() => {
+                            setShowSidebar(true)
+                        }} className='flex items-center text-white text-3xl'><ion-icon name="menu"></ion-icon></button>
                     </div>
+
                     <Link className='bg-black pt-[0.4rem] pb-[0.5rem] px-[1.5rem] rounded-[10px] font-semibold max-[700px]:hidden' to='/register'>{!isLogin ? 'ورود / ثبت نام' : 'محمد مهدی سرایان'}</Link>
                     <div className='bg-white p-[0.3rem] rounded-md main-box__item' onClick={() => setShowBasketProduct(prev => !prev)}>
                         <Link to=''><ShoppingCartOutlinedIcon color='action' /></Link>
@@ -76,6 +86,9 @@ export default function Navbar () {
                     </Link>
                 </div>
             </nav>
+
+            <Sidebar onClose={closeSidebar} isToggle={showSidebar} />
+
         </header>
     )
 }

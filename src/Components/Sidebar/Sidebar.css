@@ -1,0 +1,23 @@
+.modal-basket-container {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.modal-basket-container.open-con {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-basket {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+}
+
+.modal-basket.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
